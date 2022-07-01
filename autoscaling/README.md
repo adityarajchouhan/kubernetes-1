@@ -39,7 +39,7 @@ $ kubectl get pods --namespace kube-system | grep metrics-server
 ```
 $ kubectl apply -f hpa.yml
 ```
-#### To create horzontal pod autoscaler run below command
+#### To create horIzontal pod autoscaler run below command
 ```
 $ kubectl autoscale deployment php-apache --cpu-percent=50 --min=1 --max=10
 ```
